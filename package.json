@@ -1,0 +1,18 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "Second chance",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+nhttps://github.com/wjdals2451/wetube-reloaded"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jungmin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

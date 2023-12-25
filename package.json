@@ -8,7 +8,7 @@
     "url": "git+nhttps://github.com/wjdals2451/wetube-reloaded"
   },
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "author": "jungmin",
   "license": "ISC",
@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "@babel/core": "^7.23.6",
-    "@babel/preset-env": "^7.23.6"
+    "@babel/node": "^7.22.19",
+    "@babel/preset-env": "^7.23.6",
+    "nodemon": "^3.0.2"
   }
 }
